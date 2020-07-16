@@ -301,9 +301,11 @@ Keystore password for signer #1:
 [whqee@whqee hello_apk]$ 
 ```
 完成。  
->附合集：
+>附合集：  
+
 
 ```
+#!/bin/bash
 export PATH=~/Development/Android/android_sdk/build-tools/26.0.3/:$PATH
 PLATFORM="/opt/android-sdk/platforms/android-29/android.jar"
 rm -r build
@@ -319,7 +321,9 @@ keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -validity 10000 -ali
 keytool -list -v -keystore my-release-key.jks 
 apksigner sign --ks my-release-key.jks --out demo-release.apk unsigned.aligned.demo.apk
 ```
->另一种方式：
+
+>另一种方式：  
+
 ```
 #!/bin/bash
 export PATH=~/Development/Android/android_sdk/build-tools/26.0.3/:$PATH 
