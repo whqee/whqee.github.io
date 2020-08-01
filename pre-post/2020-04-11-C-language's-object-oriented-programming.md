@@ -1,8 +1,8 @@
 ---
 layout: post
-title: C语言的面向对象编程之——封装
+title: C语言的面向对象编程
 date: 2020-04-11 21:00:00 +800
-description: C语言的面向对象编程之——封装 # Add post description (optional)
+description: C语言的面向对象编程 # Add post description (optional)
 img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 categories: [软、硬件编程, C语言]
